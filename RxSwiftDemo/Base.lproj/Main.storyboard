@@ -55,7 +55,6 @@
         <!--计算器-->
         <scene sceneID="Zgn-Re-hD5">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="f5c-bP-Zkt" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="4Hh-Fj-nb1" customClass="CalculateVC" customModule="RxSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RuS-dC-Wh0"/>
@@ -436,47 +435,47 @@
                                     <mask key="constraints">
                                         <exclude reference="1Cz-rt-mdb"/>
                                         <exclude reference="5pd-9R-bpN"/>
-                                        <exclude reference="1mG-lf-X7c"/>
-                                        <exclude reference="oxO-MO-T0Z"/>
                                         <exclude reference="2Dq-Iy-Dxh"/>
                                         <exclude reference="CWa-KL-DK6"/>
+                                        <exclude reference="1mG-lf-X7c"/>
+                                        <exclude reference="oxO-MO-T0Z"/>
+                                        <exclude reference="hQ5-y4-Yeo"/>
+                                        <exclude reference="YaN-K0-Psx"/>
+                                        <exclude reference="n4M-5D-LMo"/>
+                                        <exclude reference="XXC-lk-cnh"/>
+                                        <exclude reference="Z7z-jS-hCB"/>
+                                        <exclude reference="4vm-0a-cHu"/>
+                                        <exclude reference="JiE-7D-1G7"/>
+                                        <exclude reference="krQ-gX-3YG"/>
                                         <exclude reference="9ZX-Sb-4fV"/>
                                         <exclude reference="Oez-Iy-40d"/>
                                         <exclude reference="Yal-dg-pYq"/>
-                                        <exclude reference="YaN-K0-Psx"/>
-                                        <exclude reference="n4M-5D-LMo"/>
-                                        <exclude reference="hQ5-y4-Yeo"/>
-                                        <exclude reference="XXC-lk-cnh"/>
-                                        <exclude reference="Z7z-jS-hCB"/>
+                                        <exclude reference="7wU-6b-WNH"/>
                                         <exclude reference="KMi-Ki-kzH"/>
                                         <exclude reference="Mxy-35-h2f"/>
                                         <exclude reference="NXY-yn-jkg"/>
                                         <exclude reference="T8b-DD-Ff8"/>
-                                        <exclude reference="Ahm-OB-d7n"/>
-                                        <exclude reference="lgf-f8-cvs"/>
-                                        <exclude reference="y3z-Hx-4iD"/>
-                                        <exclude reference="4vm-0a-cHu"/>
-                                        <exclude reference="JiE-7D-1G7"/>
-                                        <exclude reference="krQ-gX-3YG"/>
+                                        <exclude reference="51m-Cf-FAB"/>
+                                        <exclude reference="gKD-tK-qTD"/>
                                         <exclude reference="9zp-EV-Z4V"/>
                                         <exclude reference="Hvp-WW-gFe"/>
                                         <exclude reference="bym-Yb-UUx"/>
                                         <exclude reference="zNo-OJ-PGK"/>
-                                        <exclude reference="7wU-6b-WNH"/>
-                                        <exclude reference="51m-Cf-FAB"/>
-                                        <exclude reference="gKD-tK-qTD"/>
+                                        <exclude reference="9Hr-rc-faM"/>
+                                        <exclude reference="Vf6-VV-6Rg"/>
+                                        <exclude reference="hqS-tx-zcs"/>
+                                        <exclude reference="Ahm-OB-d7n"/>
+                                        <exclude reference="lgf-f8-cvs"/>
+                                        <exclude reference="y3z-Hx-4iD"/>
+                                        <exclude reference="BhW-dk-eed"/>
+                                        <exclude reference="E5f-U3-Mbs"/>
+                                        <exclude reference="R5W-Zn-Cr0"/>
+                                        <exclude reference="X4e-DE-wv4"/>
                                         <exclude reference="1z6-ep-LcZ"/>
                                         <exclude reference="74C-tY-N6J"/>
                                         <exclude reference="QWn-3S-jAt"/>
                                         <exclude reference="VdX-84-LvX"/>
                                         <exclude reference="zvO-7L-Me8"/>
-                                        <exclude reference="9Hr-rc-faM"/>
-                                        <exclude reference="Vf6-VV-6Rg"/>
-                                        <exclude reference="hqS-tx-zcs"/>
-                                        <exclude reference="BhW-dk-eed"/>
-                                        <exclude reference="E5f-U3-Mbs"/>
-                                        <exclude reference="R5W-Zn-Cr0"/>
-                                        <exclude reference="X4e-DE-wv4"/>
                                         <exclude reference="1xy-cM-0mu"/>
                                         <exclude reference="F99-bv-ANS"/>
                                         <exclude reference="XFS-J9-zPP"/>
@@ -509,10 +508,30 @@
                     <navigationItem key="navigationItem" title="计算器" id="iHh-VE-vmL"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="mButtonAllClear" destination="vpo-IQ-bAN" id="pTh-bD-oz6"/>
+                        <outlet property="mButtonDivide" destination="LnD-F5-0HP" id="zHS-hb-TlB"/>
+                        <outlet property="mButtonDot" destination="Wie-If-S1f" id="GfN-xp-eeF"/>
+                        <outlet property="mButtonEight" destination="Fpr-24-FhT" id="3hc-ea-W7I"/>
+                        <outlet property="mButtonEqual" destination="KG1-Ba-3R4" id="F2t-Lp-OIz"/>
+                        <outlet property="mButtonFive" destination="MJ4-Y3-yia" id="TBs-iW-PZv"/>
+                        <outlet property="mButtonFour" destination="6xc-Bk-HAd" id="EXD-aG-Msd"/>
+                        <outlet property="mButtonMinus" destination="cmY-XB-qbQ" id="0Vt-VO-8cv"/>
+                        <outlet property="mButtonMultiply" destination="qJB-OJ-QY5" id="SaU-TB-s1f"/>
+                        <outlet property="mButtonNine" destination="yaM-Zr-dfA" id="S6H-If-IY1"/>
                         <outlet property="mButtonOne" destination="IDH-J8-1IY" id="CJn-VH-BYx"/>
+                        <outlet property="mButtonPercent" destination="bwI-cZ-EXq" id="MSQ-4D-7JU"/>
+                        <outlet property="mButtonPlus" destination="bX7-fj-Zsg" id="Vz7-aF-zNR"/>
+                        <outlet property="mButtonSeven" destination="cqC-H0-Ycm" id="hik-c0-TRU"/>
+                        <outlet property="mButtonSign" destination="7m5-ic-Z9K" id="OdF-4s-VFj"/>
+                        <outlet property="mButtonSix" destination="mrz-lQ-F8r" id="5q1-z0-IIU"/>
+                        <outlet property="mButtonThree" destination="gFc-Yd-eYM" id="zVY-RQ-BN7"/>
                         <outlet property="mButtonTwo" destination="G7e-eR-OeS" id="s8t-nF-pZT"/>
+                        <outlet property="mButtonZero" destination="rns-bX-DcC" id="JYQ-H1-xQV"/>
+                        <outlet property="mLabelResult" destination="5B3-Kg-lUL" id="3DK-sj-LOH"/>
+                        <outlet property="mLabelSign" destination="X8O-pH-Hqi" id="4uH-np-pXn"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f5c-bP-Zkt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1150" y="577"/>
         </scene>

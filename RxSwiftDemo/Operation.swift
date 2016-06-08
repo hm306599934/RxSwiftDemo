@@ -9,8 +9,8 @@
 import Foundation
 
 enum Operator {
-    case Addition
-    case Substraction
-    case Multiplication
-    case Division
+    case Plus
+    case Minus
+    case Multiply
+    case Divide
 }
