@@ -17,6 +17,8 @@ class RootVC: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
+        //addDisposableTo(disposeBag): 销毁订阅，避免浪费内存
+        
         //create
         _ = Observable<String>
             .create { (observerString) -> Disposable in

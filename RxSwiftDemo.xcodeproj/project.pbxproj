@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6DBF3486DB57BAC7276A5D66 /* Pods_RxSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAF824E3C2862B727EB14AB /* Pods_RxSwiftDemo.framework */; };
 		BF45ACFD1D07C2BC006F5051 /* SupportCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF45ACFC1D07C2BC006F5051 /* SupportCode.swift */; };
+		BF45AD0A1D0BFC3C006F5051 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF45AD091D0BFC3C006F5051 /* LoginVC.swift */; };
 		BF5A90181CFD8946000A821C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5A90171CFD8946000A821C /* AppDelegate.swift */; };
 		BF5A901D1CFD8946000A821C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5A901B1CFD8946000A821C /* Main.storyboard */; };
 		BF5A901F1CFD8946000A821C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5A901E1CFD8946000A821C /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		82A6F7E07063F50E60EC1BFA /* Pods-RxSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BF45ACFB1D06B1A9006F5051 /* Rx.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rx.playground; sourceTree = "<group>"; };
 		BF45ACFC1D07C2BC006F5051 /* SupportCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportCode.swift; sourceTree = "<group>"; };
+		BF45AD091D0BFC3C006F5051 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		BF5A90141CFD8946000A821C /* RxSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5A90171CFD8946000A821C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5A901C1CFD8946000A821C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -98,6 +100,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BF45AD011D0AA6E4006F5051 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BF45AD091D0BFC3C006F5051 /* LoginVC.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 		BF5A900B1CFD8946000A821C = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		BF5A90161CFD8946000A821C /* RxSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BF45AD011D0AA6E4006F5051 /* Login */,
 				BFC98A061D056B520092FCB6 /* Calculate */,
 				BF5A90171CFD8946000A821C /* AppDelegate.swift */,
 				BFC98A041D05679E0092FCB6 /* RootVC.swift */,
@@ -361,6 +372,7 @@
 			files = (
 				BFC98A051D05679E0092FCB6 /* RootVC.swift in Sources */,
 				BF45ACFD1D07C2BC006F5051 /* SupportCode.swift in Sources */,
+				BF45AD0A1D0BFC3C006F5051 /* LoginVC.swift in Sources */,
 				BFC98A0C1D0595800092FCB6 /* CalculateAction.swift in Sources */,
 				BFC98A081D056B670092FCB6 /* CalculateVC.swift in Sources */,
 				BFC98A0A1D0595700092FCB6 /* CalculateState.swift in Sources */,
